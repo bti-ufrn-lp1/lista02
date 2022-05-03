@@ -94,8 +94,12 @@ Primando pela modularização, a definição e a implementação das classes dev
   ├─── build          ---> Diretório onde os arquivos executáveis serão gerados
   ├─── data_expected  ---> Diretório que contém os arquivos de saída com as respostas corretas
   ├─── data_in        ---> Diretório que contém os arquivos de entrada para os testes
-  ├─── data_in        ---> Diretório que contém os arquivos cabeçalho (.h)
+  ├─── include        ---> Diretório que contém os arquivos cabeçalho (.h)
+       └─── casa.h    ---> Arquivo cabeçalho referente à definição da classe Casa
+       └─── rua.h     ---> Arquivo cabeçalho referente à definição da classe Rua
   └─── src            ---> Diretório que contém os arquivos corpo (.cpp)
+       └─── casa.cpp  ---> Arquivo fonte referente à implementação da classe Casa
+       └─── rua.cpp   ---> Arquivo fonte referente à implementação da classe Rua
        └─── main.cpp  ---> Arquivo fonte contendo a implementação da função principal do programa
 ```
 

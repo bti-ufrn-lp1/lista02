@@ -9,12 +9,9 @@ set ( CMAKE_CXX_FLAGS "-Wall" )
 #set (CMAKE_CXX_STANDARD 11)
 #--------------------------------
 
-### [1] Application target
-# configura o diretório contendo os .h, assim você pode incluílos apenas com include "arquivo.h"
+### Application target
+# configura o diretório contendo os .h, assim você pode inclui-los apenas com #include "arquivo.h"
 include_directories( include )
-
-### [2] Test engine
-# includes do test manager
 
 # Cria um executável com nome "program" com base no main.cpp
 set( APP_NAME "program" )
