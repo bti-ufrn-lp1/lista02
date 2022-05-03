@@ -5,14 +5,14 @@
 - [Visão geral e objetivos](#visão-geral-e-objetivos)  
 - [Tarefas](#tarefas)
 - [Requisitos](#requisitos)
-- [Boas práticas de programação](#boas-praticas-de-programacao)
+- [Boas práticas de programação](#boas-práticas-de-programação)
 - [Autoria e política de colaboração](#autoria-e-política-de-colaboração)
 - [Entrega](#entrega)
 - [Avaliação](#avaliação)
 - [Dúvidas e informações](#dúvidas-e-informações)
 
 ## Visão geral e objetivos
-O objetivo desta lista de exercícios é colocar em prática as habilidades de **interpretar especificações de problemas e realizar abstrações** para projetar e implementar uma soluções na forma de programas na linguagem de programação C++, utilizando o paradigma de programação orientada a objetos. Para tanto, esta lista explora elementos fundamentais desse paradigma em C++, como classes, objetos, construtores e destrutores, além de outros recursos tradicionais da linguagem, tais como laços, estruturas condicionais simples e compostas, tipos de dados básicos e heterogêneos, expressões lógicas, passagem de parâmetros, leitura de escrita de informações a partir da entrada e saída padrão, dentre outros.
+O objetivo desta lista de exercícios é colocar em prática as habilidades de **interpretar especificações de problemas e realizar abstrações** para projetar e implementar uma soluções na forma de programas na linguagem de programação C++, utilizando o paradigma de **programação orientada a objetos**. Para tanto, esta lista explora elementos fundamentais desse paradigma em C++, como classes, objetos, construtores e destrutores, além de outros recursos tradicionais da linguagem, tais como laços, estruturas condicionais simples e compostas, tipos de dados básicos e heterogêneos, expressões lógicas, passagem de parâmetros, leitura de escrita de informações a partir da entrada e saída padrão, dentre outros.
 
 De forma adicional, esta lista de exercícios também aborda elementos da [*Standard Template Library* (STL)](https://en.wikipedia.org/wiki/Standard_Template_Library). A STL integra a biblioteca da linguagem de programação C++ provendo um conjunto de classes referentes a estruturas de dados comuns como vetor, lista, pilha, etc. (*containers*), bem como algoritmos e iteradores para operarem sobre tais estruturas. Todos esses elementos são genéricos, sendo, portanto, capazes de lidar com quaisquer tipos de dados.
 
