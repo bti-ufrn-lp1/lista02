@@ -20,13 +20,14 @@ De forma adicional, esta lista de exercícios também aborda elementos da [*Stan
 As tarefas centrais a serem realizadas neste trabalho consistem em projetar e implementar, em C++, programas para cada um dos seguintes problemas:
 
 1. [Casa & Rua](https://github.com/bti-ufrn-lp1/lista02/tree/master/casa_rua)
+2. [DNA Profiler](https://github.com/bti-ufrn-lp1/lista02/tree/master/dnaprofiler)
 
 A descrição de cada um desses problemas está em seu respectivo diretório, juntamente com exemplos de entradas e saídas esperados para o programa (se for o caso) e uma relação dos recursos da linguagem de programação C++ necessários à implementação da solução. O código fonte das soluções implementadas deverá constar nos respectivos diretórios.
 
 Cada projeto já está preparado para ser compilado individualmente com o uso de `cmake`. Para que seja possível usufruir da infraestrutura de compilação e teste disponível, **não se deve alterar outros arquivos que não sejam aqueles indicados**. De maneira geral, é importante seguir à risca as instruções sobre a implementação dos exercícios, uma vez que as respostas serão validadas de forma automatizada. Preferencialmente, não se deve realizar qualquer modificação nos testes automatizados, a menos que seja acordado com o docente.
 
 ## Requisitos
-Para que seja possível compilar e executar os testes preparados para este trabalho, é necessário que os seguintes elementos estejam instalados no ambiente de desenvolvimento:
+Para a realização desta atividade, os seguintes elementos devem estar devidamente instalados no ambiente de desenvolvimento:
 
 - [Git](https://git-scm.com), como sistema de controle de versões
 - [*GNU Compiler Collection*](https://gcc.gnu.org) (a qual inclui o compilador `g++`), [`clang`](https://clang.llvm.org/) ou qualquer outro compilador para a linguagem C++
@@ -51,7 +52,7 @@ No momento de criação de uma equipe, o GitHub Classroom cria um repositório G
 A implementação das soluções para os problemas propostos neste trabalho deverá ser realizada **até as 23h59 do dia 13 de maio de 2022** no respectivo repositório Git da equipe. Para fins de registro, o endereço do repositório também deverá ser enviado através da opção *Tarefas* na Turma Virtual do SIGAA. **Não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.**
 
 ## Avaliação
-A avaliação de cada uma das soluções para os cinco problemas propostos contabilizará nota de até 10,0 pontos. As soluções implementadas serão avaliadas de acordo com os seguintes critérios: 
+A avaliação de cada uma das soluções para os problemas propostos contabilizará nota de até 10,0 pontos. As soluções implementadas serão avaliadas de acordo com os seguintes critérios: 
 
 - utilização correta dos recursos providos pela linguagem de programação C++;
 - modelagem adequada de classes e utilização correta de objetos;
@@ -65,7 +66,7 @@ O não cumprimento de algum dos critérios de avaliação especificados poderá 
 | :--- | ---: |
 | Falta de comentários no código fonte e/ou de documentação gerada com Doxygen | -10% |
 | Uso inadequado de controle de versão com Git | -20% |
-| Falta de especificação ou especificação incorreta da autoria do trabalho (arquivo [`author.md`](https://github.com/bti-ufrn-lp1/lista01/blob/master/author.md)) | -20% |
+| Falta de especificação ou especificação incorreta da autoria do trabalho (arquivo [`author.md`](https://github.com/bti-ufrn-lp1/lista02/blob/master/author.md)) | -20% |
 | Implementação na linguagem C ou resultante de mistura entre as linguagens C e C++ | -30% |
 | Código fonte com legibilidade prejudicada (por exemplo, com identação ou nomenclatura inadequada) | -40% |
 | Programa compila com mensagens de aviso (*warnings*) | -50% |
