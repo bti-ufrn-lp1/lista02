@@ -23,9 +23,7 @@ As tarefas centrais a serem realizadas neste trabalho consistem em projetar e im
 
 A descrição de cada um desses problemas está em seu respectivo diretório, juntamente com exemplos de entradas e saídas esperados para o programa (se for o caso) e uma relação dos recursos da linguagem de programação C++ necessários à implementação da solução. O código fonte das soluções implementadas deverá constar nos respectivos diretórios.
 
-Cada projeto já está preparado para ser compilado individualmente com o uso de `cmake`. Para que seja possível usufruir da infraestrutura de compilação e teste disponível, **não se deve alterar outros arquivos que não sejam aqueles indicados**. De maneira geral, é importante seguir à risca as instruções sobre a implementação dos exercícios, uma vez que as respostas serão validadas de forma automatizada. Preferencialmente, não se deve realizar qualquer modificação nos testes automatizados, a memos que seja acordado com o docente.
-
-Por fim, caso se deseje criar outros arquivos fonte para melhor modularizar o programa, é necessário alterar o *script* do `cmake` corespondente para incluir o novo arquivo fonte na lista de dependências do alvo `${APP_NAME}` com o comando `target_sources(${APP_NAME} PRIVATE "nome_arquivo.cpp")`.
+Cada projeto já está preparado para ser compilado individualmente com o uso de `cmake`. Para que seja possível usufruir da infraestrutura de compilação e teste disponível, **não se deve alterar outros arquivos que não sejam aqueles indicados**. De maneira geral, é importante seguir à risca as instruções sobre a implementação dos exercícios, uma vez que as respostas serão validadas de forma automatizada. Preferencialmente, não se deve realizar qualquer modificação nos testes automatizados, a menos que seja acordado com o docente.
 
 ## Requisitos
 Para que seja possível compilar e executar os testes preparados para este trabalho, é necessário que os seguintes elementos estejam instalados no ambiente de desenvolvimento:
