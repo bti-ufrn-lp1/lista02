@@ -4,14 +4,16 @@
 ## Modelagem
 Realize a modelagem de duas classes, *Casa* e *Rua*, de acordo com as definições especificadas a seguir.
 
+<img src="diagrama-classes.png" alt="diagrama-classes" width="65%" />
+
 ### Casa
 A classe *Casa*, a qual representa uma casa, deve possuir os seguintes membros:
 
 <ins>Atributos:</ins>
-Atributo | Descrição
-:------- | :---------
-`numero` | Do tipo inteiro, representa o número da casa
-`dono`   | Do tipo [`string`](https://www.cplusplus.com/reference/string/string/), representa o nome do proprietário da casa
+Atributos | Descrição
+:-------- | :---------
+`numero`  | Do tipo inteiro, representa o número da casa
+`dono`    | Do tipo [`string`](https://www.cplusplus.com/reference/string/string/), representa o nome do proprietário da casa
 
 <ins>Métodos</ins>
 Métodos                 | Descrição
