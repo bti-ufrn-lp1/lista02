@@ -53,7 +53,7 @@ No momento de criação de uma equipe, o GitHub Classroom cria um repositório G
 A implementação das soluções para os problemas propostos neste trabalho deverá ser realizada **até as 23h59 do dia 13 de maio de 2022** no respectivo repositório Git da equipe. Para fins de registro, o endereço do repositório também deverá ser enviado através da opção *Tarefas* na Turma Virtual do SIGAA. **Não serão aceitos envios por outros meios ou repositórios que não sejam os descritos nesta especificação.**
 
 ## Avaliação
-A avaliação de cada uma das soluções para os cinco problemas propostos contabilizará nota de até 10,0 pontos, correspondentes . As soluções implementadas serão avaliadas de acordo com os seguintes critérios: 
+A avaliação de cada uma das soluções para os cinco problemas propostos contabilizará nota de até 10,0 pontos. As soluções implementadas serão avaliadas de acordo com os seguintes critérios: 
 
 - utilização correta dos recursos providos pela linguagem de programação C++;
 - modelagem adequada de classes e utilização correta de objetos;
