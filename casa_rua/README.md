@@ -4,7 +4,7 @@
 ## Modelagem
 Realize a modelagem de duas classes, *Casa* e *Rua*, de acordo com as definições especificadas a seguir.
 
-<img src="diagrama-classes.png" alt="diagrama-classes" width="65%" />
+<img src="img/diagrama-classes.png" alt="diagrama-classes" width="65%" />
 
 ### Casa
 A classe *Casa*, a qual representa uma casa, deve possuir os seguintes membros:
