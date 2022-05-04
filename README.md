@@ -35,7 +35,7 @@ Para a realização desta atividade, os seguintes elementos devem estar devidame
 - [Python 3+](https://www.python.org/), para executar o *script* de teste de comparação de saída gerada/esperada
 
 ## Boas práticas de programação
-Boas práticas de programação deverão ser constantemente aplicadas no desenvolvimento das soluções aos problemas propostos. Os programas deverão ser codificados de forma legível (com indentação de código fonte, nomes consistentes, etc.) e documentados adequadamente na forma de comentários. O código fonte deverá ainda ser anotado para dar suporte à geração automática de documentação utilizando a ferramenta [Doxygen](https://www.doxygen.nl/). O documento de apoio disponível neste [link](https://drive.google.com/file/d/1YA1KxASCNY3B8APowD2V0sL-kAso9g86/view) contém algumas instruções acerca do padrão de documentação e uso do Doxygen. **Cada projeto deverá ter sua documentação específica**, de forma separada dos demais.
+Boas práticas de programação deverão ser constantemente aplicadas no desenvolvimento das soluções aos problemas propostos. Os programas deverão ser codificados de forma legível (com indentação de código fonte, nomes consistentes, etc.) e documentados adequadamente na forma de comentários. O código fonte deverá ainda ser anotado para dar suporte à geração automática de documentação utilizando a ferramenta [Doxygen](https://www.doxygen.nl/). O documento de apoio disponível neste [*link*](https://drive.google.com/file/d/1YA1KxASCNY3B8APowD2V0sL-kAso9g86/view) contém algumas instruções acerca do padrão de documentação e uso do Doxygen. **Cada projeto deverá ter sua documentação específica**, de forma separada dos demais.
 
 As soluções deverão ser desenvolvidas com qualidade, garantindo que o programa funcione de forma correta e eficiente. Deve-se também pensar nas possíveis entradas que poderão ser utilizadas para testar apropriadamente cada programa, além de serem tratadas adequadamente possíveis entradas consideradas inválidas. A execução dos testes automatizados é útil para identificar esses tipos de casos.
 
@@ -71,7 +71,7 @@ O não cumprimento de algum dos critérios de avaliação especificados poderá 
 | Código fonte com legibilidade prejudicada (por exemplo, com identação ou nomenclatura inadequada) | -40% |
 | Programa compila com mensagens de aviso (*warnings*) | -50% |
 | Modelagem orientada a objetos inadequada | -50% |
-| Gerenciamento incorreto de memória (ocorrência de vazamentos de memória, detectados com o [Valgrind](https://valgrind.org) | -60% |
+| Gerenciamento incorreto de memória (ocorrência de vazamentos de memória, detectados com o [Valgrind](https://valgrind.org)) | -60% |
 | Programa apresenta erros de compilação, não executa ou apresenta saída incorreta | -70% |
 | Plagiarismo | -100% |
 
