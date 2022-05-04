@@ -60,8 +60,8 @@ Primando pela modularização, a definição e a implementação das classes dev
        └─── pessoa.h     ---> Arquivo cabeçalho referente à definição da classe Pessoa
   └─── src               ---> Diretório que contém os arquivos corpo (.cpp)
        └─── cadastro.cpp ---> Arquivo fonte referente à implementação da classe Cadastro
-       └─── pessoa.cpp   ---> Arquivo fonte referente à implementação da classe Pessoa
        └─── main.cpp     ---> Arquivo fonte contendo a implementação da função principal do programa
+       └─── pessoa.cpp   ---> Arquivo fonte referente à implementação da classe Pessoa
 ```
 
 ## Execução de testes automatizados
