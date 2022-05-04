@@ -53,8 +53,10 @@ Primando pela modularização, a definição e a implementação das classes dev
 +─cadastros              ---> Nome do diretório do projeto
   ├─── CMakeLists.txt    ---> Script de configuração do cmake
   ├─── build             ---> Diretório onde os arquivos executáveis serão gerados
+  ├─── data              ---> Diretório onde os arquivos de entrada estão armazenados
   ├─── data_expected     ---> Diretório que contém os arquivos de saída com as respostas corretas
   ├─── data_in           ---> Diretório que contém os arquivos de entrada para os testes
+  ├─── img               ---> Diretório com figuras utilizadas na especificação do problema
   ├─── include           ---> Diretório que contém os arquivos cabeçalho (.h)
        └─── cadastro.h   ---> Arquivo cabeçalho referente à definição da classe Cadastro
        └─── pessoa.h     ---> Arquivo cabeçalho referente à definição da classe Pessoa
