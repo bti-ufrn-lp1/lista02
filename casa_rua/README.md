@@ -16,12 +16,13 @@ Atributos | Descrição
 `dono`    | Do tipo [`string`](https://www.cplusplus.com/reference/string/string/), representa o nome do proprietário da casa
 
 <ins>Métodos</ins>
-Métodos                 | Descrição
-:---------------------- | :---------
-`Casa(string d)`        | Construtor parametrizado para a classe, o qual recebe como parâmetro o nome do proprietário da casa. O número da casa deve ser inicializado com -1.
-`int getNumero()`       | Retorna o número da casa
-`void setNumero(int n)` | Modifica o número da casa
-`string getDono()`      | Retorna o nome do proprietário da casa
+Métodos                        | Descrição
+:----------------------------- | :---------
+`Casa(string c_dono)`          | Construtor parametrizado para a classe, o qual recebe como parâmetro o nome do proprietário da casa. O número da casa deve ser inicializado com -1.
+`int getNumero()`              | Retorna o número da casa
+`void setNumero(int c_numero)` | Modifica o número da casa
+`string getDono()`             | Retorna o nome do proprietário da casa
+`string setDono(string c_dono)`| Modifica o nome do proprietário da casa
 
 ### Rua
 A classe *Rua*, a qual representa uma rua que contém um conjunto de casas, deve possuir os seguintes membros:
@@ -31,20 +32,20 @@ Atributo | Descrição
 :------- | :---------
 `nome`   | Do tipo [`string`](https://www.cplusplus.com/reference/string/string/), representando o nome da rua
 `cep`    | Do tipo [`string`](https://www.cplusplus.com/reference/string/string/), representa o CEP da rua
-`a`      | Um *container* da [*Standard Template Library* (STL)](https://www.cplusplus.com/reference/stl/) contendo um conjunto de objetos da classe *Casa* que pertencem ao lado A da rua
-`b`      | Um *container* da [*Standard Template Library* (STL)](https://www.cplusplus.com/reference/stl/) contendo um conjunto de objetos da classe *Casa* que pertencem ao lado B da rua
+`lado_a` | Um *container* da [*Standard Template Library* (STL)](https://www.cplusplus.com/reference/stl/) contendo um conjunto de objetos da classe *Casa* que pertencem ao lado A da rua
+`lado_b` | Um *container* da [*Standard Template Library* (STL)](https://www.cplusplus.com/reference/stl/) contendo um conjunto de objetos da classe *Casa* que pertencem ao lado B da rua
 
 Observação: escolha o *container* da STL que parecer mais apropriado para servir de atributo à classe *Rua*.
 
 <ins>Métodos</ins>
 Método                                   | Descrição
 :--------------------------------------- | :---------
-`Rua(string n, string cd)`           | Construtor parametrizado para a classe, o qual recebe como parâmetros o nome e o CEP da rua
-`void adiciona_casa(Casa &c, string l)`  | Adiciona uma casa `c` ao conjunto de casas do lado `l` da rua. O número da casa deve ser modificado de acordo com a posição no respectivo *container*: os números das casas no lado A são sempre pares (começando em 0) e os das casas no lado B são sempre ímpares (começando em 1). Caso o valor do parâmetro `l` seja diferente de `"A"` ou `"B"` (ou seja, foi informado um lado considerado inválido), nenhuma casa deve ser adicionada a qualquer dos lados da rua.
+`Rua(string r_nome, string r_cep)`       | Construtor parametrizado para a classe, o qual recebe como parâmetros o nome e o CEP da rua
+`void adiciona_casa(Casa &c, string lado)`| Adiciona uma casa `c` ao conjunto de casas do lado especificado da rua. O número da casa deve ser modificado de acordo com a posição no respectivo *container*: os números das casas no lado A são sempre pares (começando em 0) e os das casas no lado B são sempre ímpares (começando em 1). Caso o valor do parâmetro `lado` seja diferente de `"A"` ou `"B"` (ou seja, foi informado um lado considerado inválido), nenhuma casa deve ser adicionada a qualquer dos lados da rua.
 `pair<Casa, Casa> vizinhos(Casa c)`      | Retorna um [par](https://www.cplusplus.com/reference/utility/pair/) contendo os vizinhos da casa `c`. Uma casa é considerada vizinha se ela vem logo após ou é anterior à casa `c` respectivo *container* da rua em que a casa em questão está adicionada. Se a casa não tiver anterior ou posterior, a casa correspondente deve ter o número igual a -1.
-`pair<Casa, Casa> vizinhos(string n)` | Retorna um [par](https://www.cplusplus.com/reference/utility/pair/) contendo as casas que são vizinhas à pessoa de nome `n`.
-`vector<Casa> casa(string n)`         | Retorna um vetor com todas as casas pertencentes ao dono com nome `n`
-`string endereco(string n)`           | Retorna o endereço da casa de uma pessoa com nome `n` no formato `Rua <nome>, <numero_casa>, CEP <CEP>`. Caso a casa não pertença à rua, deve ser retornada uma *string* vazia.
+`pair<Casa, Casa> vizinhos(string nome_dono)` | Retorna um [par](https://www.cplusplus.com/reference/utility/pair/) contendo as casas que são vizinhas à pessoa cujo nome é dado por `nome_dono`.
+`vector<Casa> casa(string nome_dono)` | Retorna um vetor com todas as casas pertencentes ao dono cujo nome é dado por `nome_dono`.
+`string endereco(string nome_dono)` | Retorna o endereço da casa de uma pessoa cujo nome é dado por `nome_dono` no formato `Rua <nome>, <numero_casa>, CEP <CEP>`. Caso a casa não pertença à rua, deve ser retornada uma *string* vazia.
 
 ## Implementação do programa
 Usando as classes implementadas, escreva um programa (arquivo `main.cpp`) que lê, da entrada padrão, o nome da rua e o CEP, seguido por um conjunto de pares contendo o nome do dono e o lado da rua em que ele mora. Um exemplo de entrada seria:
