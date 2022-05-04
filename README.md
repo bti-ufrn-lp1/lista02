@@ -19,8 +19,8 @@ De forma adicional, esta lista de exercícios também aborda elementos da [*Stan
 ## Tarefas
 As tarefas centrais a serem realizadas neste trabalho consistem em projetar e implementar, em C++, programas para cada um dos seguintes problemas:
 
-1. [Casa & Rua](https://github.com/bti-ufrn-lp1/lista02/tree/master/casa_rua)
-2. [Cadastros](https://github.com/bti-ufrn-lp1/lista02/tree/master/cadastros)
+1. [Casa & Rua](casa_rua)
+2. [Cadastros](cadastros)
 
 A descrição de cada um desses problemas está em seu respectivo diretório, juntamente com exemplos de entradas e saídas esperados para o programa (se for o caso) e uma relação dos recursos da linguagem de programação C++ necessários à implementação da solução. O código fonte das soluções implementadas deverá constar nos respectivos diretórios.
 
@@ -40,7 +40,7 @@ Boas práticas de programação deverão ser constantemente aplicadas no desenvo
 As soluções deverão ser desenvolvidas com qualidade, garantindo que o programa funcione de forma correta e eficiente. Deve-se também pensar nas possíveis entradas que poderão ser utilizadas para testar apropriadamente cada programa, além de serem tratadas adequadamente possíveis entradas consideradas inválidas. A execução dos testes automatizados é útil para identificar esses tipos de casos.
 
 ## Autoria e política de colaboração
-**Este trabalho deverá necessariamente ser realizado em equipe composta de dois estudantes**, sendo importante, dentro do possível, dividir as tarefas igualmente entre os integrantes da equipe. Após a implementação das soluções para os problemas propostos, o arquivo [`author.md`](https://github.com/bti-ufrn-lp1/lista02/blob/master/author.md) presente no repositório deverá ser editado preenchendo as informações de identificação dos integrantes da equipe, na seção [Informações de Autoria](https://github.com/bti-ufrn-lp1/lista02/blob/master/author.md#identificação-de-autoria) e informando-se quais dos problemas foram solucionados com sucesso, na seção [Soluções Implementadas](https://github.com/bti-ufrn-lp1/lista02/blob/master/author.md#soluções-implementadas). 
+**Este trabalho deverá necessariamente ser realizado em equipe composta de dois estudantes**, sendo importante, dentro do possível, dividir as tarefas igualmente entre os integrantes da equipe. Após a implementação das soluções para os problemas propostos, o arquivo [`author.md`](author.md) presente no repositório deverá ser editado preenchendo as informações de identificação dos integrantes da equipe, na seção [Informações de Autoria](author.md#identificação-de-autoria) e informando-se quais dos problemas foram solucionados com sucesso, na seção [Soluções Implementadas](author.md#soluções-implementadas). 
 
 O trabalho em cooperação entre estudantes da mesma turma ou de outras turmas é estimulado, sendo admissível a discussão de ideias e estratégias. Contudo, tal interação não deve ser entendida como permissão para utilização de (parte de) código fonte de colegas, o que pode caracterizar situação de plágio. Trabalhos copiados no todo ou em parte de outros colegas ou da Internet serão anulados e receberão nota zero.
 
@@ -66,7 +66,7 @@ O não cumprimento de algum dos critérios de avaliação especificados poderá 
 | :--- | ---: |
 | Falta de comentários no código fonte e/ou de documentação gerada com Doxygen | -10% |
 | Uso inadequado de controle de versão com Git | -20% |
-| Falta de especificação ou especificação incorreta da autoria do trabalho (arquivo [`author.md`](https://github.com/bti-ufrn-lp1/lista02/blob/master/author.md)) | -20% |
+| Falta de especificação ou especificação incorreta da autoria do trabalho (arquivo [`author.md`](author.md)) | -20% |
 | Implementação na linguagem C ou resultante de mistura entre as linguagens C e C++ | -30% |
 | Código fonte com legibilidade prejudicada (por exemplo, com identação ou nomenclatura inadequada) | -40% |
 | Programa compila com mensagens de aviso (*warnings*) | -50% |
