@@ -1,5 +1,5 @@
 # Lista 2: Introdução à programação orientada a objetos em C++
-<sub>Última atualização: 02/05/2022</sub>
+<sub>Última atualização: 03/05/2022</sub>
 
 ## Sumário
 - [Visão geral e objetivos](#visão-geral-e-objetivos)  
@@ -20,7 +20,7 @@ De forma adicional, esta lista de exercícios também aborda elementos da [*Stan
 As tarefas centrais a serem realizadas neste trabalho consistem em projetar e implementar, em C++, programas para cada um dos seguintes problemas:
 
 1. [Casa & Rua](https://github.com/bti-ufrn-lp1/lista02/tree/master/casa_rua)
-2. [DNA Profiler](https://github.com/bti-ufrn-lp1/lista02/tree/master/dnaprofiler)
+2. [Cadastros](https://github.com/bti-ufrn-lp1/lista02/tree/master/cadastros)
 
 A descrição de cada um desses problemas está em seu respectivo diretório, juntamente com exemplos de entradas e saídas esperados para o programa (se for o caso) e uma relação dos recursos da linguagem de programação C++ necessários à implementação da solução. O código fonte das soluções implementadas deverá constar nos respectivos diretórios.
 
