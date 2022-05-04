@@ -12,7 +12,7 @@
 - [Dúvidas e informações](#dúvidas-e-informações)
 
 ## Visão geral e objetivos
-O objetivo desta lista de exercícios é colocar em prática as habilidades de **interpretar especificações de problemas e realizar abstrações** para projetar e implementar uma soluções na forma de programas na linguagem de programação C++, utilizando o paradigma de **programação orientada a objetos**. Para tanto, esta lista explora elementos fundamentais desse paradigma em C++, como classes, objetos, construtores e destrutores, além de outros recursos tradicionais da linguagem, tais como laços, estruturas condicionais simples e compostas, tipos de dados básicos e heterogêneos, expressões lógicas, passagem de parâmetros, leitura de escrita de informações a partir da entrada e saída padrão, dentre outros.
+O objetivo desta lista de exercícios é colocar em prática as habilidades de **interpretar especificações de problemas e realizar abstrações** para projetar e implementar uma soluções na forma de programas na linguagem de programação C++, utilizando o paradigma de **programação orientada a objetos**. Para tanto, esta lista explora elementos fundamentais desse paradigma em C++, como classes, objetos, construtores e destrutores, além de outros recursos tradicionais da linguagem, tais como laços, estruturas condicionais simples e compostas, expressões lógicas, passagem de parâmetros, leitura de escrita de informações a partir da entrada e saída padrão, leitura de arquivos, dentre outros.
 
 De forma adicional, esta lista de exercícios também aborda elementos da [*Standard Template Library* (STL)](https://en.wikipedia.org/wiki/Standard_Template_Library). A STL integra a biblioteca da linguagem de programação C++ provendo um conjunto de classes referentes a estruturas de dados comuns como vetor, lista, pilha, etc. (*containers*), bem como algoritmos e iteradores para operarem sobre tais estruturas. Todos esses elementos são genéricos, sendo, portanto, capazes de lidar com quaisquer tipos de dados.
 
@@ -56,7 +56,7 @@ A avaliação de cada uma das soluções para os problemas propostos contabiliza
 
 - utilização correta dos recursos providos pela linguagem de programação C++;
 - modelagem adequada de classes e utilização correta de objetos;
-- corretude da execução dos programas implementados, que devem apresentar saída em conformidade com a especificação e as entradas de dados fornecidas;
+- corretude da execução dos programas implementados, que devem apresentar saída em conformidade com a especificação e as entradas de dados fornecidas, além de gerenciar corretamente memória dinamicamente alocada;
 - aplicação de boas práticas de programação, incluindo legibilidade, organização e documentação de código fonte, e;
 - correta utilização do repositório Git, no qual deverá ser registrado todo o histórico da implementação por meio de *commits*. 
 
@@ -71,6 +71,7 @@ O não cumprimento de algum dos critérios de avaliação especificados poderá 
 | Código fonte com legibilidade prejudicada (por exemplo, com identação ou nomenclatura inadequada) | -40% |
 | Programa compila com mensagens de aviso (*warnings*) | -50% |
 | Modelagem orientada a objetos inadequada | -50% |
+| Gerenciamento incorreto de memória (ocorrência de vazamentos de memória, detectados com o [Valgrind](https://valgrind.org) | -60% |
 | Programa apresenta erros de compilação, não executa ou apresenta saída incorreta | -70% |
 | Plagiarismo | -100% |
 
