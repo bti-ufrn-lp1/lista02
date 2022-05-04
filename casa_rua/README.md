@@ -100,8 +100,8 @@ Primando pela modularização, a definição e a implementação das classes dev
        └─── rua.h     ---> Arquivo cabeçalho referente à definição da classe Rua
   └─── src            ---> Diretório que contém os arquivos corpo (.cpp)
        └─── casa.cpp  ---> Arquivo fonte referente à implementação da classe Casa
-       └─── rua.cpp   ---> Arquivo fonte referente à implementação da classe Rua
        └─── main.cpp  ---> Arquivo fonte contendo a implementação da função principal do programa
+       └─── rua.cpp   ---> Arquivo fonte referente à implementação da classe Rua
 ```
 
 ## Execução de testes automatizados
