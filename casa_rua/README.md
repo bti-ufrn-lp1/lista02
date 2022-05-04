@@ -95,6 +95,7 @@ Primando pela modularização, a definição e a implementação das classes dev
   ├─── build          ---> Diretório onde os arquivos executáveis serão gerados
   ├─── data_expected  ---> Diretório que contém os arquivos de saída com as respostas corretas
   ├─── data_in        ---> Diretório que contém os arquivos de entrada para os testes
+  ├─── img            ---> Diretório com figuras utilizadas na especificação do problema
   ├─── include        ---> Diretório que contém os arquivos cabeçalho (.h)
        └─── casa.h    ---> Arquivo cabeçalho referente à definição da classe Casa
        └─── rua.h     ---> Arquivo cabeçalho referente à definição da classe Rua
