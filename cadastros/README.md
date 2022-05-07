@@ -1,5 +1,5 @@
 # Cadastros
-<sup>Última atualização: 03/05/2022</sup>
+<sup>Última atualização: 07/05/2022</sup>
 
 ## Modelagem
 Realize a modelagem de duas classes, *Pessoa* e *Cadastro*. A classe *Pessoa* representa uma pessoa, agregando informações como seu número de CPF, nome e endereço. Por sua vez, a classe *Cadastro* agrega um conjunto de pessoas (objetos da classe *Pessoa*) e um nome para identificá-lo.
