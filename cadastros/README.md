@@ -13,6 +13,31 @@ Um cuidado ao utilizar esse tipo de estratégia quando da utilização da aloca�
 ## Implementação do programa
 Usando as classes implementadas, escreva um programa (arquivo `main.cpp`) que cria quatro cadastros, *Cadastro Único*, *Sistema Único de Saúde* (SUS), *Cadastro Estadual* (CE) e *Cadastro Municipal* (CM). O programa deverá inicialmente realizar o cadastro de pessoas no Cadastro Único utilizando os dados estão disponíveis no arquivo de texto [`data/CadastroUnico.txt`](data/CadastroUnico.txt).
 
+<ins>Dica:</ins> Dentre os vários objetos que podem ser criados para manipular arquivos utilizando a linguagem de programação C++ destacam-se o [`ifstream`](https://www.cplusplus.com/reference/fstream/ifstream/), utilizado para manipular arquivos **apenas com operações de leitura**, e o [`fstream`](https://www.cplusplus.com/reference/fstream/fstream/), utilizado para manipular arquivos tanto com operações de leitura quanto de escrita. Ambos os objetos são disponibilizados pela biblioteca [`fstream`](https://www.cplusplus.com/reference/fstream/):
+
+```c++
+#include <cstdlib>
+using std::exit;
+
+#include <fstream>
+using std::ifstream;
+
+#include <iostream>
+using std::cerr;
+using std::endl;
+
+ifstream arquivo("dados.txt");                      // Objeto para leitura do arquivo "dados.txt"
+if (!arquivo) {                                     // Verifica se o arquivo foi aberto com sucesso
+  cerr << "O arquivo não pôde ser aberto" << endl;
+  exit(1);
+} else {
+  while (!arquivo.eof()) {
+    // Leitura do conteúdo do arquivo
+  }
+  arquivo.close();                                  // Fechamento do arquivo após processamento
+}
+```
+
 Em seguida, o programa deverá receber como entrada um conjunto de pares com números de CPF seguidos pela abreviação do cadastro no qual aquela pessoa deve ser adicionada. Um exemplo dessa entrada seria:
 
 ```
