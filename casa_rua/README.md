@@ -65,6 +65,21 @@ Wilhelm Nan
 A
 ```
 
+<ins>Dica:</ins> Note-se que os dados lidos da entrada padrão contêm espaços, logo a leitura de dados utilizando o operador de extração `>>` sobre o objeto `cin` da biblioteca [`iostream`](https://www.cplusplus.com/reference/iostream/) como é tradicionalmente feito implicará que cada palavra separada por espaço seja entendida um dado diferente, o que não estaria correto para este programa. Assim sendo, a leitura correta de dados que contêm espaços deve ser feita utilizando o método `getline` disponibilizada classe [`string`](https://www.cplusplus.com/reference/string/string/getline/) a partir da biblioteca `string`:
+
+```c++
+#include <iostream>
+using std::cin;
+
+#include <string>
+using std::string;
+
+string linha;
+getline(cin, linha);
+```
+
+Nesse exemplo, será lida a partir da entrada padrão uma linha completa como uma *string* (inclusive com espaços) e armazenada no objeto `linha` do tipo `string`, o qual poderá agora ser manipulado conforme desejado.
+
 O programa deverá então imprimir o endereço de todas as pessoas adicionadas junto com seus vizinhos. Uma saída para o exemplo acima seria:
 
 ```
