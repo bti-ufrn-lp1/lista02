@@ -1,5 +1,5 @@
 # Casa & Rua
-<sup>Última atualização: 07/05/2022</sup>
+<sup>Última atualização: 09/05/2022</sup>
 
 ## Modelagem
 Realize a modelagem de duas classes, *Casa* e *Rua*, de acordo com as definições especificadas a seguir.
@@ -22,7 +22,7 @@ Métodos                        | Descrição
 `int getNumero()`              | Retorna o número da casa
 `void setNumero(int c_numero)` | Modifica o número da casa
 `string getDono()`             | Retorna o nome do proprietário da casa
-`string setDono(string c_dono)`| Modifica o nome do proprietário da casa
+`void setDono(string c_dono)`  | Modifica o nome do proprietário da casa
 
 ### Rua
 A classe *Rua*, a qual representa uma rua que contém um conjunto de casas, deve possuir os seguintes membros:
